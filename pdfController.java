@@ -5,7 +5,7 @@ import com.lowagie.text.html.simpleparser.HTMLWorker;
 import com.lowagie.text.pdf.PdfWriter;
 
 @RequestMapping(value = "toPdf", method = RequestMethod.POST)
-	public void baixarPdf(
+	public void toPdf(
 			@RequestBody(required=true) String body,
 			@RequestBody(required=true) String cssUrl,
 			HttpServletRequest request,
